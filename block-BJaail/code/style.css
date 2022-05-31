@@ -1,0 +1,55 @@
+body{
+    margin: 0 100px;
+    line-height:1 ;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 1000px;
+}
+
+input[type="text"]{
+    font-weight: 200;
+}
+
+b{
+    font-weight: 200;
+    color: crimson;
+}
+label{
+    color:brown;
+    font-size: 22px;
+}
+
+input[type="submit"]{
+      background-color: blue;
+      color: white;
+}body{
+    margin: 0 100px;
+    line-height:1 ;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 1000px;
+}
+
+input[type="text"]{
+    font-weight: 200;
+}
+
+b{
+    font-weight: 200;
+    color: crimson;
+}
+
+input[type="submit"]{
+      background-color: blue;
+      color: white;
+}
+td, th{
+    color: brown;
+}
