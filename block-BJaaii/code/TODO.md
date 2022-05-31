@@ -83,3 +83,56 @@ atmQueue.dequeue();
 atmQueue.dequeue();
 console.log(atmQueue.isEmpty()); // true
 ```
+
+
+
+```JS
+class Stack{
+connstructor(){
+   return this.stack=[];
+},
+push(value){
+    return this.stack.push(value);
+},
+pop(){
+    return this.stack.pop();
+},
+peek(i=length-1){
+    return this.stack[i]
+},
+reverse(){
+    return this.stack.reverse()
+},
+isEmpty(){
+    return this.stack.length>0;
+},
+displayStack(){
+    return this.stack.join(" ");
+},
+get length(){
+    return this.stack.length;
+}
+}
+```
+```JS
+class Queue{
+    constructor(){
+        this.queue = [];
+    }
+    enqueue(item){
+        return this.queue.push(item);
+    }
+    dequeue(item){
+        return this.queue.shift();
+    }
+    peek(item=0){
+        return splice(item,1);
+    }
+    isEmpty(){
+        return this.queue.length < 0 ;
+    }
+    displayQueue(){
+        return this.queue.join(" ");
+    }
+}
+```
